@@ -1,0 +1,68 @@
+.container {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.checkout__soon, .room__chart, .sale__chart {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #e2d3b3;
+    overflow: hidden;
+}
+
+.checkout__soon, .room__chart {
+    flex-basis: 49%;
+}
+
+.sale__chart {
+    flex-basis: 100%;
+}
+
+.checkout__soon {
+    height: 400px;
+}
+
+.title {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.checkout__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout__list table{
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.checkout__list th, td{
+    padding: 8px;
+}
+
+.room__chart {
+    margin-left: auto;
+    margin-right: 0;
+    height: 400px;
+}
+
+#donutChart {
+    height: 400px;
+}
+
+#curve_chart {
+    position: relative;
+    z-index: 0;
+    width: 100%; 
+    height: 500px;
+    padding: 10px;
+}
